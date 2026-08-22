@@ -1,0 +1,18 @@
+name: portfolio-risk
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - scikit-learn
+  - pandas
+  - numpy
+  - pyyaml
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - cvxpy
+  - seaborn
+  - pytest
+  - ipykernel
+prefix: /Users/yyi/miniforge3/envs/portfolio-risk
