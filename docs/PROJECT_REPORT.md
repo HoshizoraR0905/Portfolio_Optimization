@@ -5,7 +5,7 @@ Detailed formulations and implementation are kept in the notebooks; the purpose 
 
 ## 1. Final strategy comparison
 
-![Main final strategy comparison](docs/figures/main_final_strategy_comparison.png)
+![Main final strategy comparison](figures/main_final_strategy_comparison.png)
 
 Each point represents one portfolio strategy evaluated over the same common out-of-sample period.
 
