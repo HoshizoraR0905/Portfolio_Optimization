@@ -29,6 +29,7 @@ portfolio:
 
 backtest:
   estimation_window_years: 3
+  estimation_windows_months: [9, 12, 18, 36]
   rebalance_frequency: monthly
   transaction_cost_bps: 10
 
