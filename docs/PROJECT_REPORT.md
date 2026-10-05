@@ -29,7 +29,7 @@ The Exact SSD and Relaxed SSD points are deliberately compared without an additi
 
 ## 2. SSD parameter sensitivity
 
-![SSD parameter sensitivity](docs/figures/ssd_parameter_sensitivity.png)
+![SSD parameter sensitivity](figures/ssd_parameter_sensitivity.png)
 
 This figure focuses only on the SSD family. Every plotted point is one complete out-of-sample strategy.
 
@@ -74,7 +74,7 @@ The main purpose of this plot is not to rank every point individually. It is to 
 
 ## 3. Relaxed SSD parameter diagnostics
 
-![Relaxed SSD grid diagnostics](docs/figures/relaxed_ssd_grid_diagnostics.png)
+![Relaxed SSD grid diagnostics](figures/relaxed_ssd_grid_diagnostics.png)
 
 This figure shows how the Relaxed SSD results change across the parameter grid.
 
