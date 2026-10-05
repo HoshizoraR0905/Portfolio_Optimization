@@ -30,6 +30,14 @@ portfolio:
 backtest:
   estimation_window_years: 3
   estimation_windows_months: [9, 12, 18, 36]
+  relaxed_ssd_max_weight_caps: [0.3, 0.5, 1.0]
+  relaxed_ssd_penalty_alphas: [0.01, 0.05, 0.10]
+  relaxed_ssd_final_comparison:
+    # null selects the longest window, largest alpha, and extreme caps.
+    # Replace any null with a list to choose the main Notebook 09 subset.
+    estimation_windows_months: null
+    penalty_alphas: null
+    maximum_weight_caps: null
   rebalance_frequency: monthly
   transaction_cost_bps: 10
 
